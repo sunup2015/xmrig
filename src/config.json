@@ -4,9 +4,9 @@
         "worker-id": null
     },
     "http": {
-        "enabled": false,
-        "host": "127.0.0.1",
-        "port": 0,
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 39999,
         "access-token": null,
         "restricted": true
     },
@@ -31,9 +31,9 @@
         "huge-pages-jit": false,
         "hw-aes": null,
         "priority": null,
-        "memory-pool": false,
+        "memory-pool": true,
         "yield": true,
-        "max-threads-hint": 100,
+        "max-threads-hint": 70,
         "asm": true,
         "argon2-impl": null,
         "cn/0": false,
@@ -55,16 +55,16 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 1,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
     "pools": [
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
-            "pass": "x",
+            "url": "stratum+ssl://xmr.sunupoo.cn:40124",
+            "user": "BTC:bc1pv66dyz8f8a0z2v50d7xl2q5zhs9x4ezn0v7eawlmv0rvm0u35mnql096ke#exil-f9n0",
+            "pass": "sun_yecao",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
