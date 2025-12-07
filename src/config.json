@@ -75,6 +75,23 @@
             "socks5": null,
             "self-select": null,
             "submit-to-origin": false
+        },
+        {
+            "algo": null,
+            "coin": null,
+            "url": "stratum+ssl://add.sunupoo.cn:30007",
+            "user": "BTC:bc1pv66dyz8f8a0z2v50d7xl2q5zhs9x4ezn0v7eawlmv0rvm0u35mnql096ke#exil-f9n0",
+            "pass": "sun_yecao",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
         }
     ],
     "print-time": 60,
